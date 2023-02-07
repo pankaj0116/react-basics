@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Basic NPM Installation and Base code creation steps -
+
+1. Install npm and node.js packages into Mac/windows -
+https://nodejs.org/en/download/
+
+2. Create a basic react code -
+Go to this and follow -
+https://create-react-app.dev/docs/getting-started/
+
+npx create-react-app my-app
+
+3. Update the npm to 
+npm install -g npm@9.3.1
+
+4. To start the application - 
+Go to the downloaded application folder where package.json is present. Run this command -
+cd my-app
+npm start
+
 ## Available Scripts
 
 In the project directory, you can run:
