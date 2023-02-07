@@ -1,0 +1,12 @@
+button {
+    background-color: blue;
+    color: white;
+    padding: 15px 30px;
+    margin: 5px;
+    width: 100px;
+    font-size: larger;
+}
+
+span {
+    font-size: larger;
+}
