@@ -5,14 +5,17 @@ import CounterWithStateBaseOldCode from './counterapp/CounterWithStateBaseOldCod
 import CounterWithStateAndProps from './counterapp/CounterWithStateAndProps';
 import './counterapp/Counter.css';
 import Finalcounter from './counterapp/FinalCounter';
+import 'bootstrap/dist/css/bootstrap.css';
+import ReactAppFirstComponent from './todo/ReactAppFirstComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <FirstComponent></FirstComponent>
+      <header>
+        <ReactAppFirstComponent/>
+        {/** <FirstComponent></FirstComponent> */}
         {/** <CounterWithStateBaseOldCode></CounterWithStateBaseOldCode> */}
-        <Finalcounter></Finalcounter>
+        {/** <Finalcounter></Finalcounter> */}
       </header>
     </div>
   );
